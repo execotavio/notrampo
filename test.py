@@ -1,2 +1,5 @@
-def sum(a, b):
-    return a + b
+def sum(a, b, op):
+    if op == 'sum':
+        return a + b
+    elif op == '/':
+        return a / b
